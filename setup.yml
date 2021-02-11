@@ -1,0 +1,10 @@
+- hosts: Web_server
+  roles:
+  - role: "apache"
+
+- hosts: Proxy_server
+  roles:
+  - role: "load_balancer"
+
+
+        
